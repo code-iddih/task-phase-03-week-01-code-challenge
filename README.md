@@ -50,7 +50,7 @@ Object-Oriented Programming
 
 **Step 1 :**
 ### Clone the Repository
-git clone <git@github.com/code-iddih/task-phase-03-week-01-code-challenge.git>
+git clone <https://github.com/code-iddih/task-phase-03-week-01-code-challenge>
 
 **Step 2 :**
 ### Navigate to the Project Directory
