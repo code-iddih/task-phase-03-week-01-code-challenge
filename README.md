@@ -4,11 +4,11 @@
 This repository contains solutions to the Python Coding Assessment, which evaluates fundamental Python concepts. The tasks cover basic data structures, functions, decorators, sequences, sets, dictionaries, and object-oriented programming. Each task is designed to assess my understanding and application of these concepts in Python.
 
 ## Topics Covered
-Basic Data Structures
-Functions
-Decorators
-Sequences
-Sets and Dictionaries
+Basic Data Structures\
+Functions\
+Decorators\
+Sequences\
+Sets and Dictionaries\
 Object-Oriented Programming
 
 **Language :** _Python_
