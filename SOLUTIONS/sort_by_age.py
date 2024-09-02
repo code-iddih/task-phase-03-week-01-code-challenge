@@ -8,7 +8,7 @@ def sort_by_age():
     details = [(" Eric " , " 40 ") , (" Ayim " , " 28 ") , (" Centrine " , " 20 ") , (" George " , " 33 ") ]
 
     # Sorting the list of Tuples by Age
-    details.sort(key = lambda x : x[1]) # Since age in index 1 of the tuple
+    details.sort(key = lambda x : x[1]) # Since age is stored in index 1 of every tuple
 
     # Printing the Solutiion
     for detail in details: # So that the ouutput prints vertically
