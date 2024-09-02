@@ -26,5 +26,5 @@ class Car:
             print(f"{key} : {value}")
 
 car_detail = Car(" Mitsubishi " , " C740 " , 2023)
-# Displaying the car_details
+# Displaying the car details
 car_detail.display_info()
