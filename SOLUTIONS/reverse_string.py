@@ -5,7 +5,7 @@
 # Creating the Function
 def reverse_string():
     # Request input from User
-    text = input("Please Enter the String You wish to reverse :  ")
+    text = input("Please Enter the Text You wish to reverse :  ")
     # Begin from the end and end at the beginning, one step backwards
     reversed_text = text[::-1]
     # Printing the new Text
