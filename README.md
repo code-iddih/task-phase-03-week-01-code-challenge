@@ -49,20 +49,20 @@ Object-Oriented Programming
 ## Repository Set-Up
 
 **Step 1 :**
-### Clone the Repository\
+### Clone the Repository
 git clone <git@github.com:code-iddih/task-phase-03-week-01-code-challenge.git>
 
-** Step 2 : **\
-### Navigate to the Project Directory\
+**Step 2 :**
+### Navigate to the Project Directory
 cd <your/path/task-phase-03-week-01-code-challenge/SOLUTIONS>
 
-** Step 3 : **\
-### Ensure Python is Installed\
+**Step 3 :**
+### Ensure Python is Installed
 python3 --version
 
-** Step 4 : **\
-### Run Specific Application\
-python3 <file-name>.py
+**Step 4 :**
+### Run Specific Application
+python3 file-name.py
 
 ## Acknowledgement
 
