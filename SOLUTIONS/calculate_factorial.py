@@ -3,9 +3,9 @@
 # Write a Python function named calculate_factorial that takes a non-negative integer n as input and returns the factorial of that number. The factorial of a non-negative integer n is the product of all positive integers less than or equal to n.
 
 # Creating the Function
-def calculate_factorial():
+def calculate_factorial(n):
     # Request input from User
-    n = int(input("Please Enter a Number to Calculate its Factorial! :  "))
+    # n = int(input("Please Enter a Number to Calculate its Factorial! :  "))
     # Initializing the Factorial variable to 1
     factorial = 1
     # Checking if the number is a Positive Integer
@@ -20,4 +20,4 @@ def calculate_factorial():
             factorial *= i
         print(f"The Factorial of the Number {n} is : {factorial}.")
 
-calculate_factorial()
+calculate_factorial(6)
