@@ -12,12 +12,13 @@ def calculate_factorial(n):
     if n < 0:
         print(f"Invalid!! Please Enter a Positive Integer.")
     elif n == 0 or n == 1:
-        print(f"The Factorial of the Number {n} is 1.")
+        return 1
     else:
         # iterating through the numbers less thaan it
+        factorial = 1
         for i in range (2, n +1):
             # Multiplying by current value
             factorial *= i
-        print(f"The Factorial of the Number {n} is : {factorial}.")
+        return factorial
 
-calculate_factorial(6)
+print(calculate_factorial(5))
