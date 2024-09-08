@@ -12,4 +12,4 @@ def is_even( number ):
         print(f"The Number {number} is ODD.")
 
 # Calling the Function
-is_even(0)
+is_even(-4)
