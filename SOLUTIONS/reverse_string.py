@@ -7,9 +7,9 @@ def reverse_string(text):
     # Request input from User
     # text = input("Please Enter the Text You wish to reverse :  ")
     # Begin from the end and end at the beginning, one step backwards
-    reversed_text = text[::-1]
+    return text[::-1]
     # Printing the new Text
     print(f"When the Text '{text}' is reversed, it becomes : {reversed_text} ")
 
 # Calling the Function
-reverse_string("Home")
+print(reverse_string("Home"))
