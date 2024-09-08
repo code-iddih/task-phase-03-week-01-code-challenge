@@ -7,11 +7,8 @@ def is_even( number ):
     # Checks if the number is EVEN
     if number < 0:
         print("Please Use a Positive Integer.")
-    elif number % 2 == 0 :
-        print(f"The Number {number} is EVEN.")
-    # if the number is not EVEN then it is ODD
-    else : 
-        print(f"The Number {number} is ODD.")
+    return number % 2 == 0 
+
 
 # Calling the Function
-is_even(3)
+print(is_even(3))
