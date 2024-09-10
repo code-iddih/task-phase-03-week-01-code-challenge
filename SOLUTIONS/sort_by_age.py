@@ -3,7 +3,7 @@
 # Given a list of tuples where each tuple contains a name and an age, write a Python function named sort_by_age that sorts the list of tuples by age in ascending order.
 
 # Creaing the Function
-def sort_by_age(detail):
+def sort_by_age(details):
 
     # Sorting the list of Tuples by Age
     details.sort(key = lambda x : x[1]) # Since age is stored in index 1 of every tuple
@@ -13,6 +13,7 @@ def sort_by_age(detail):
         print(detail)
 
     # Initializingg a List of tuples
-details = [(" Eric " , " 40 ") , (" Ayim " , " 28 ") , (" Centrine " , " 20 ") , (" George " , " 33 ") ]
+details = [(" Eric " , " 40 ") , (" Ayim " , " 28 ") , (" Centrine " , " 20 ") , (" George " , " 11 ") ]
+
 # Calling thhe Function
 sort_by_age(details)
