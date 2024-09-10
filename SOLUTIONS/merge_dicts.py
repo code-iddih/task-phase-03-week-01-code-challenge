@@ -6,7 +6,6 @@
 def merge_dicts(dict1, dict2):
 # Initializing two dictionaries
 
-
     # Creating a copy of thhe 1st dictioanry
     merged_contributions = dict1.copy()
 
